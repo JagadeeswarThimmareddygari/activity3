@@ -1,0 +1,24 @@
+* {
+  background-image: url("https://images.unsplash.com/photo-1615297836509-5ba206255b0e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGxpZ2h0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+#c1 {
+  cursor: cell;
+}
+#c2 {
+  cursor: pointer;
+}
+#c3 {
+  cursor: grab;
+}
+#c4 {
+  cursor: text;
+}
+#c5 {
+  cursor: wait;
+}
+#c6 {
+  cursor: help;
+}

@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .header{
+            text-align: center;
+            color:blue;
+        }
+        a:hover{
+            color:aqua;
+            font-size:120%;
+        }
+        a:active{
+            color:antiquewhite;
+        }
+        a:visited{
+            color:green;
+        }
+        .left{
+            margin-left:30px;
+            color:blue;
+            font-style:italic;
+        }
+        .center{
+            text-align: center;
+            text-decoration: underline;
+            font-family:'Times New Roman', Times, serif;
+            word-spacing:10px;
+        }
+        .right{
+            border-top:2px solid red;
+            float:right;
+            font-size: 15px;
+            color:red;
+            font-style:oblique;
+        }
+        .capital{
+            font-size:150%;
+            line-height: 70px;
+            color:red;
+        }
+        .bd{
+            color:orange;
+            text-decoration: underline;
+        } 
+        .cursor{
+            color:green;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="header">CSS (Inline,Internal and External)</h1>
+    <p>This Paragraph is not Styled</p>
+    <p class="left">This Paragraph is Styled with class "Left"</p>
+    <p class="center">THIS PARAGRAPH IS STYLED BY CLASS "CENTER"</p>
+    <p class="right"> <span class="capital">T</span class="capital">HIS <span class="capital">P</span>ARAGRAPH  IS <span class="capital">S</span>TYLED BY CLASS "<span class="capital">R</span>IGHT"</p>
+    <b>This is normal Bold</b> <br>
+    <b class="bd">This Bold Text is Styled</b> <br> <br>
+    <a  style="color:orange; text-decoration: none;"href="#">This is a link</a>
+    <p id="c1" class="cursor">This cursor over this element is plus sign</p>
+    <p id="c2" class="cursor">This cursor over this element is a pointing hand</p>
+    <p id="c3" class="cursor">This cursor over this element is a grasping hand</p>
+    <p id="c4" class="cursor">This cursor over this element is a I bar</p>
+    <p id="c5" class="cursor">This cursor over this element is a wait</p>
+    <p id="c6" class="cursor">This cursor over this element is a question mark</p>
+</body>
+</html>
